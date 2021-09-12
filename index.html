@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <head>
+        <title>HTML Practical 3</title>
+        <style>
+            table {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: larger;
+                padding: 10px;
+            }
+
+            #frame1 {
+                background-color: coral;
+            }
+
+            #frame2 {
+                background-color: aquamarine;
+            }
+
+            #frame3 {
+                background-color: cornflowerblue;
+            }
+
+            #frame4 {
+                background-color: crimson;
+            }
+
+            .question2:after {
+                content: "";
+                display: table;
+                clear: both;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .frame1{
+                float: left;
+                width: 33%;
+                height: 500px;
+                background-color: coral;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: larger;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .frame2{
+                float: left;
+                width: 33%;
+                height: 130px;
+                background-color: cadetblue;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: larger;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .frame3{
+                float: left;
+                width: 33%;
+                height: 500px;
+                background-color: coral;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: larger;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table style="width: 100%;" id="question1">
+            <tr style="height:200px;">
+                <th id="frame1">Frame 1</th></th>
+                <th id="frame2" style="width:75%;">Frame 2</th>
+            </tr>
+            <tr style="height:200px;">
+                <th id="frame3">Frame 3</th>
+                <th id="frame4" style="width: 75%;">Frame 4</th>
+            </tr>
+        </table>
+        <div class="question2">
+            <div class="frame1"><text>Frame 1</text></div>
+            <div class="frame2"><text>Frame 2</text></div>
+            <div class="frame3"><text>Frame 3</text></div>
+        </div>
+    </body>
+</html>
